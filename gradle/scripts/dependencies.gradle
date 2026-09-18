@@ -1,0 +1,61 @@
+apply from: 'gradle/scripts/helpers.gradle'
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name 'CurseMaven'
+                url 'https://cursemaven.com'
+            }
+        }
+        filter {
+            includeGroup 'curse.maven'
+        }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name 'Modrinth'
+                url 'https://api.modrinth.com/maven'
+            }
+        }
+        filter {
+            includeGroup 'maven.modrinth'
+        }
+    }
+
+    mavenLocal() // Must be last for caching to work
+}
+
+/**
+ * NOT DEPENDENCIES:
+ *  - runtimeOnly: not required at all for the mod, added for developer convenience to run targets
+ * OPTIONAL DEPENDENCIES:
+ *  - compileOnly: will not be included in developer run targets
+ *  - devOnlyNonPublishable: will be included in developer run targets
+ * REQUIRED DEPENDENCIES:
+ *  - implementation: mods or other jars that are required to be installed alongside this mod
+ */
+dependencies {
+    // Include StripLatestForgeRequirements by default for the dev env
+    runtimeOnly 'com.cleanroommc:strip-latest-forge-requirements:1.0'
+    // Include OSXNarratorBlocker by default for the dev env, for M1+ Macs
+    runtimeOnly 'com.cleanroommc:osxnarratorblocker:1.0'
+
+    // ---- Required dependencies ----
+
+    // Buildcraft
+    implementation rfg.deobf("curse.maven:buildcraft-core-231305:6376383")
+    implementation rfg.deobf("curse.maven:buildcraft-silicon-231311:6376387")
+
+    // ---- Useful mods for testing ----
+
+    // JEI
+    runtimeOnly rfg.deobf("curse.maven:jei-238222:8752694")
+
+    // TOP
+    runtimeOnly rfg.deobf("curse.maven:the-one-probe-245211:2667280")
+
+    // XU2
+    runtimeOnly rfg.deobf("curse.maven:extra-utilities-225561:2678374")
+}

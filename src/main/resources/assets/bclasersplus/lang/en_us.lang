@@ -1,0 +1,39 @@
+# Names
+tile.bclasersplus.laser_plus.0.name=Faster Laser
+item.bclasersplus.laser_plus.0.name=Faster Laser
+tile.bclasersplus.laser_plus.1.name=Fasterer Laser
+item.bclasersplus.laser_plus.1.name=Fasterer Laser
+tile.bclasersplus.laser_plus.2.name=Fasterest Laser
+item.bclasersplus.laser_plus.2.name=Fasterest Laser
+tile.bclasersplus.laser_plus.3.name=Fasterester Laser
+item.bclasersplus.laser_plus.3.name=Fasterester Laser
+
+# Configs
+bclasersplus.config.title=BuildCraft Lasers +
+
+## Configs: General
+bclasersplus.config.category.general=General
+bclasersplus.config.category.general.tooltip=General settings for laser behavior
+bclasersplus.config.general.laserfactors=Laser Factors
+bclasersplus.config.general.laserfactors.tooltip=Speed and battery-capacity factors for lasers.\nEach value corresponds to a different laser tier.\nRequires restart for changes to take effect.
+
+## Configs: Mixins
+bclasersplus.config.category.mixins=Mixins
+bclasersplus.config.category.mixins.tooltip=Settings for BuildCraft Laser fixes and optimizations
+bclasersplus.config.mixins.batteryCapacityMixin=Battery Capacity Fix
+bclasersplus.config.mixins.batteryCapacityMixin.tooltip=Enable scaling the Laser battery capacity. Requires restart.
+bclasersplus.config.mixins.stopSpuriousSearchMixin=Stop Spurious Searches
+bclasersplus.config.mixins.stopSpuriousSearchMixin.tooltip=Stop false-positive laser target searches. Requires restart.
+bclasersplus.config.mixins.getLaserBlockMixin=Get Laser Block Fix
+bclasersplus.config.mixins.getLaserBlockMixin.tooltip=Allow Lasers to work. Requires restart.
+bclasersplus.config.mixins.performanceMixin=Performance Optimizations
+bclasersplus.config.mixins.performanceMixin.tooltip=Enable performance optimizations for Lasers. Requires restart.
+bclasersplus.config.mixins.fixLaserListenerLeaking=Fix Laser Listener Leaking
+bclasersplus.config.mixins.fixLaserListenerLeaking.tooltip=Fix the issue where the Laser listener leaks. Requires restart.
+bclasersplus.config.mixins.fixLaserNotWorkingMixin=Fix Laser Not Working
+bclasersplus.config.mixins.fixLaserNotWorkingMixin.tooltip=Enable the fix for Lasers stopping working randomly. Requires restart.
+bclasersplus.config.mixins.fixLaserPowerOverflow=Fix Laser Power Overflow
+bclasersplus.config.mixins.fixLaserPowerOverflow.tooltip=Prevent output overflow from overfilled laser batteries. Requires restart.
+
+# Tooltips
+tooltip.bclasersplus.laser_plus=§bA faster laser (%sx speed)

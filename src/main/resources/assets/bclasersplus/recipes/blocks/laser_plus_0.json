@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "buildcraftsilicon:redstone_chipset"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "buildcraftsilicon:laser"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "bclasersplus:laser_plus_0"
+                }
+            ]
+        }
+    ],
+    "pattern": [
+        "clc",
+        "lgl",
+        "clc"
+    ],
+    "key": {
+        "c": { "item": "buildcraftsilicon:redstone_chipset" },
+        "g": { "type": "forge:ore_dict", "ore": "gearStone" },
+        "l": { "item": "buildcraftsilicon:laser" }
+    },
+    "result": { "item": "bclasersplus:laser_plus_0" }
+}

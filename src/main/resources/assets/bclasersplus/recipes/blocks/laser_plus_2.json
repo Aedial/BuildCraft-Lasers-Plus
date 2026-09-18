@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "buildcraftsilicon:gold_chipset"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "bclasersplus:laser_plus_1"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "bclasersplus:laser_plus_2"
+                }
+            ]
+        }
+    ],
+    "pattern": [
+        "clc",
+        "lgl",
+        "clc"
+    ],
+    "key": {
+        "c": { "item": "buildcraftsilicon:gold_chipset" },
+        "g": { "type": "forge:ore_dict", "ore": "gearGold" },
+        "l": { "item": "bclasersplus:laser_plus_1" }
+    },
+    "result": { "item": "bclasersplus:laser_plus_2" }
+}

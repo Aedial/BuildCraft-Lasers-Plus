@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "buildcraftsilicon:diamond_chipset"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "bclasersplus:laser_plus_2"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "bclasersplus:laser_plus_3"
+                }
+            ]
+        }
+    ],
+    "pattern": [
+        "clc",
+        "lgl",
+        "clc"
+    ],
+    "key": {
+        "c": { "item": "buildcraftsilicon:diamond_chipset" },
+        "g": { "type": "forge:ore_dict", "ore": "gearDiamond" },
+        "l": { "item": "bclasersplus:laser_plus_2" }
+    },
+    "result": { "item": "bclasersplus:laser_plus_3" }
+}

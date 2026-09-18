@@ -1,0 +1,7 @@
+{
+    "parent": "bclasersplus:block/laser_plus_0",
+    "textures": {
+        "front_overlay": "bclasersplus:blocks/laser_front_overlay_2",
+        "side_overlay": "bclasersplus:blocks/laser_side_overlay_2"
+    }
+}

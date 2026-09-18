@@ -1,0 +1,67 @@
+{
+    "parent": "buildcraftsilicon:block/laser",
+    "textures": {
+        "front_overlay": "bclasersplus:blocks/laser_front_overlay_0",
+        "side_overlay": "bclasersplus:blocks/laser_side_overlay_0"
+    },
+    "elements": [
+        {
+            "from": [0, 0, 0],
+            "to": [16, 4, 16],
+            "faces": {
+                "down": {"texture": "#bottom", "cullface": "down"},
+                "up": {"texture": "#top"},
+                "north": {"texture": "#side", "cullface": "north"},
+                "south": {"texture": "#side", "cullface": "south"},
+                "west": {"texture": "#side", "cullface": "west"},
+                "east": {"texture": "#side", "cullface": "east"}
+            }
+        },
+        {
+            "from": [5, 4, 5],
+            "to": [11, 13, 11],
+            "faces": {
+                "up": {"texture": "#top"},
+                "north": {"texture": "#side"},
+                "south": {"texture": "#side"},
+                "west": {"texture": "#side"},
+                "east": {"texture": "#side"}
+            }
+        },
+        {
+            "from": [0, 4, 0],
+            "to": [16, 4.1, 16],
+            "faces": {
+                "up": {"uv": [0, 0, 16, 16], "texture": "#front_overlay"}
+            }
+        },
+        {
+            "from": [0, 0, -0.1],
+            "to": [16, 4, 0],
+            "faces": {
+                "north": {"uv": [0, 12, 16, 16], "texture": "#side_overlay", "cullface": "north"}
+            }
+        },
+        {
+            "from": [0, 0, 16],
+            "to": [16, 4, 16.1],
+            "faces": {
+                "south": {"uv": [0, 12, 16, 16], "texture": "#side_overlay", "cullface": "south"}
+            }
+        },
+        {
+            "from": [-0.1, 0, 0],
+            "to": [0, 4, 16],
+            "faces": {
+                "west": {"uv": [0, 12, 16, 16], "texture": "#side_overlay", "cullface": "west"}
+            }
+        },
+        {
+            "from": [16, 0, 0],
+            "to": [16.1, 4, 16],
+            "faces": {
+                "east": {"uv": [0, 12, 16, 16], "texture": "#side_overlay", "cullface": "east"}
+            }
+        }
+    ]
+}
