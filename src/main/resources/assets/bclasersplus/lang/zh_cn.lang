@@ -1,0 +1,39 @@
+# Names
+tile.bclasersplus.laser_plus.0.name=更快的镭射器
+item.bclasersplus.laser_plus.0.name=更快的镭射器
+tile.bclasersplus.laser_plus.1.name=更更快的镭射器
+item.bclasersplus.laser_plus.1.name=更更快的镭射器
+tile.bclasersplus.laser_plus.2.name=更更更快的镭射器
+item.bclasersplus.laser_plus.2.name=更更更快的镭射器
+tile.bclasersplus.laser_plus.3.name=更更更更快的镭射器
+item.bclasersplus.laser_plus.3.name=更更更更快的镭射器
+
+# Configs
+bclasersplus.config.title=BuildCraft镭射器+
+
+## Configs: General
+bclasersplus.config.category.general=通用
+bclasersplus.config.category.general.tooltip=镭射器行为的通用设置
+bclasersplus.config.general.laserfactors=镭射器倍率
+bclasersplus.config.general.laserfactors.tooltip=镭射器速度和电池容量的倍率。\n每个值对应不同的镭射器等级。\n更改后需要重启才能生效。
+
+## Configs: Mixins
+bclasersplus.config.category.mixins=Mixins
+bclasersplus.config.category.mixins.tooltip=BuildCraft镭射器的修复与优化设置
+bclasersplus.config.mixins.batteryCapacityMixin=电池容量修复
+bclasersplus.config.mixins.batteryCapacityMixin.tooltip=启用镭射器电池容量缩放。需要重启。
+bclasersplus.config.mixins.stopSpuriousSearchMixin=停止误报搜索
+bclasersplus.config.mixins.stopSpuriousSearchMixin.tooltip=停止误报的镭射器目标搜索。需要重启。
+bclasersplus.config.mixins.getLaserBlockMixin=镭射器方块获取修复
+bclasersplus.config.mixins.getLaserBlockMixin.tooltip=允许镭射器工作。需要重启。
+bclasersplus.config.mixins.performanceMixin=性能优化
+bclasersplus.config.mixins.performanceMixin.tooltip=启用镭射器的性能优化。需要重启。
+bclasersplus.config.mixins.fixLaserListenerLeaking=修复镭射器监听器泄漏
+bclasersplus.config.mixins.fixLaserListenerLeaking.tooltip=修复镭射器监听器泄漏的问题。需要重启。
+bclasersplus.config.mixins.fixLaserNotWorkingMixin=修复镭射器无法工作
+bclasersplus.config.mixins.fixLaserNotWorkingMixin.tooltip=启用修复镭射器随机停止工作的问题。需要重启。
+bclasersplus.config.mixins.fixLaserPowerOverflow=修复镭射器能量溢出
+bclasersplus.config.mixins.fixLaserPowerOverflow.tooltip=防止镭射器电池过充导致的输出溢出。需要重启。
+
+# Tooltips
+tooltip.bclasersplus.laser_plus=§b更快的镭射器（%s倍速度）
