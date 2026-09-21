@@ -19,7 +19,7 @@ bclasersplus.config.general.laserfactors.tooltip=镭射器速度和电池容量�
 
 ## Configs: Mixins
 bclasersplus.config.category.mixins=Mixins
-bclasersplus.config.category.mixins.tooltip=BuildCraft镭射器修复与优化设置
+bclasersplus.config.category.mixins.tooltip=BuildCraft镭射器的修复与优化设置
 bclasersplus.config.mixins.batteryCapacityMixin=电池容量修复
 bclasersplus.config.mixins.batteryCapacityMixin.tooltip=启用镭射器电池容量缩放。需要重启。
 bclasersplus.config.mixins.stopSpuriousSearchMixin=停止误报搜索
