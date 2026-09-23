@@ -11,6 +11,8 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import buildcraft.core.BCCore;
 import buildcraft.lib.registry.RegistryConfig;
@@ -49,8 +51,11 @@ public class BCLaserPlus {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        if (event.getSide().isClient()) {
-            ClientRegistry.bindTileEntitySpecialRenderer(TileLaserPlus.class, new RenderLaser());
-        }
+        if (event.getSide().isClient()) bindRenderers();
+    }
+
+    @SideOnly(Side.CLIENT)
+    private static void bindRenderers() {
+        ClientRegistry.bindTileEntitySpecialRenderer(TileLaserPlus.class, new RenderLaser());
     }
 }

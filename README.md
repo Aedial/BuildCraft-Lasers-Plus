@@ -11,7 +11,7 @@ A BuildCraft addon for Minecraft 1.12.2 that adds configurable BuildCraft Lasers
 
 Each laser is configurable via the `Laser Factors` config. Each entry in this list creates a new Laser with the associated value as speed and battery capacity factor (from the base BuildCraft laser).
 
-Only 4 default lasers are provided, corresponding to 4x, 16x, 64x, and 256x. If you want more lasers, you will need to add more factors and provide the corresponding configurations :
+Only 4 default lasers are provided, corresponding to the 4 values of the array (default 4x, 16x, 64x, and 256x). If you want more lasers, you will need to add more factors and provide the corresponding configurations :
 - Model (`models/block/laser_plus_<index>.json` & `models/item/laser_plus_<index>.json`) for texture mapping + any texture referenced within these models
 - Blockstate (`blockstates/laser_plus_<index>.json`) for rotation
 - Recipe (`recipes/blocks/laser_plus_<index>.json`)
@@ -23,7 +23,7 @@ A restart is required for any modifications to take effect.
 
 The mod comes with a few mixins that modify the behavior of lasers for improved performance and bug fixes, corresponding to PR 4764 to 4770 in the [BuildCraft repository](https://github.com/BuildCraft/BuildCraft/pull). You can configure which mixins are enabled or disabled through the configuration file or the in-game Forge config GUI. They should be disabled once the PRs have been merged and a new release is available. Without MixinBooter, these mixins will not be applied, resulting in the mod not working at all, unless you have a version of BuildCraft with #4765 merged (this is the only one we truly depend on).
 
-/!\ If ANY of the mixins are enabled, you should have MixinBooter in your mods list! Otherwise, the mixins will not load. /!\
+:warning: If ANY of the mixins are enabled, you should have MixinBooter in your mods list! Otherwise, the mixins will not load. :warning:
 
 ### [Stop Spurious Searches](https://github.com/BuildCraft/BuildCraft/pull/4764)
 The lasers will re-scan for targets when any changes occur in their surroundings, causing false-positive target searches. This mixin stops such spurious searches, only updating the target when blocks truly change.
@@ -45,3 +45,6 @@ Fixes the issue where laser power could overflow, causing the lasers to stop wor
 
 ### [Battery Capacity Fix](https://github.com/BuildCraft/BuildCraft/pull/4770)
 Allows lasers to scale their battery capacity according to the configured factors, instead of storing the base capacity (which is 1024 MJ = 10240 RF).
+
+## Credits
+- Chinese translation: @ZHAY10086
