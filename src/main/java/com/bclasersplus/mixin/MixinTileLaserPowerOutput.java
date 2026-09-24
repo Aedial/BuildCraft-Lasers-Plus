@@ -21,15 +21,15 @@ public abstract class MixinTileLaserPowerOutput {
             target = "Ljava/lang/Math;min(JJ)J",
             ordinal = 0,
             remap = false
-        )
+        ),
+        remap = true
     )
     private long calculatePowerOutput(long ignoredPower, long maxPower) {
         long stored = battery.getStored();
         long halfCapacity = battery.getCapacity() / 2;
         long minStoredForMaxPower = Math.max(0, halfCapacity - maxPower);
-        if (stored >= minStoredForMaxPower) {
-            return maxPower;
-        }
+        if (stored >= minStoredForMaxPower) return maxPower;
+
         return (long) ((double) maxPower * (stored + maxPower) / halfCapacity);
     }
 }
