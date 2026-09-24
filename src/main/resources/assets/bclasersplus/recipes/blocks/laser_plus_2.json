@@ -6,7 +6,7 @@
             "values": [
                 {
                     "type": "minecraft:item_exists",
-                    "item": "buildcraftsilicon:gold_chipset"
+                    "item": "buildcraftsilicon:redstone_chipset"
                 },
                 {
                     "type": "minecraft:item_exists",
@@ -25,7 +25,7 @@
         "clc"
     ],
     "key": {
-        "c": { "item": "buildcraftsilicon:gold_chipset" },
+        "c": { "item": "buildcraftsilicon:redstone_chipset", "data": 2 },
         "g": { "type": "forge:ore_dict", "ore": "gearGold" },
         "l": { "item": "bclasersplus:laser_plus_1" }
     },

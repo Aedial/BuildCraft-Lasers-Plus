@@ -8,6 +8,12 @@ The format is based on Keep a Changelog and this project adheres to Semantic Ver
 - Semantic Versioning: https://semver.org/spec/v2.0.0.html
 
 
+## [1.1.0] - 2026-09-25
+### Fixed
+- Fix the recipe for the lasers
+- Fix mixin 4769 not getting applied
+
+
 ## [1.0.0] - 2026-09-21
 ### Added
 - Configurable BuildCraft Laser tiers, with each configured factor scaling both laser speed and battery capacity (default factors are 4x, 16x, 64x, and 256x)

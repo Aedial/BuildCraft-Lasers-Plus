@@ -25,7 +25,7 @@
         "clc"
     ],
     "key": {
-        "c": { "item": "buildcraftsilicon:redstone_chipset" },
+        "c": { "item": "buildcraftsilicon:redstone_chipset", "data": 0 },
         "g": { "type": "forge:ore_dict", "ore": "gearStone" },
         "l": { "item": "buildcraftsilicon:laser" }
     },
