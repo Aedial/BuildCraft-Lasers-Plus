@@ -45,6 +45,10 @@ public class BCLaserPlusLateMixinLoader implements ILateMixinLoader {
             configs.add(MIXIN_CONFIG_PREFIX + "4770.json");
         }
 
+        if (BCLaserPlusConfig.mixins.assemblyTableRecipeCacheMixin) {
+            configs.add(MIXIN_CONFIG_PREFIX + "4772.json");
+        }
+
         return configs;
     }
 }

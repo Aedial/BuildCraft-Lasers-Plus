@@ -40,6 +40,8 @@ bclasersplus.config.mixins.fixLaserNotWorkingMixin=Fix Laser Not Working
 bclasersplus.config.mixins.fixLaserNotWorkingMixin.tooltip=Enable the fix for Lasers stopping working randomly. Requires restart.
 bclasersplus.config.mixins.fixLaserPowerOverflow=Fix Laser Power Overflow
 bclasersplus.config.mixins.fixLaserPowerOverflow.tooltip=Prevent output overflow from overfilled laser batteries. Requires restart.
+bclasersplus.config.mixins.assemblyTableRecipeCacheMixin=Assembly Table Recipe Cache
+bclasersplus.config.mixins.assemblyTableRecipeCacheMixin.tooltip=Cache selected Assembly Table recipes. Requires restart.
 
 # Tooltips
 tooltip.bclasersplus.laser_plus=§bA faster laser (%sx speed)

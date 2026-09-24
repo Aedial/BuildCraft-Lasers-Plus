@@ -8,7 +8,10 @@ The format is based on Keep a Changelog and this project adheres to Semantic Ver
 - Semantic Versioning: https://semver.org/spec/v2.0.0.html
 
 
-## [1.1.0] - 2026-09-25
+## [1.1.0] - 2026-09-24
+### Added
+- Add Assembly Table recipe caching mixin (#4772)
+
 ### Fixed
 - Fix the recipe for the lasers
 - Fix mixin 4769 not getting applied

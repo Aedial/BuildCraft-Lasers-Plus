@@ -46,5 +46,8 @@ Fixes the issue where laser power could overflow, causing the lasers to stop wor
 ### [Battery Capacity Fix](https://github.com/BuildCraft/BuildCraft/pull/4770)
 Allows lasers to scale their battery capacity according to the configured factors, instead of storing the base capacity (which is 1024 MJ = 10240 RF).
 
+### [Assembly Table Recipe Cache](https://github.com/BuildCraft/BuildCraft/pull/4772)
+The Assembly Table checks the full recipe list every single tick, when nothing even changed. This mixin aggresively caches the selected recipes, reducing dozens of entries every tick to a few every time a recipe ends. Alongside the performance optimizations for lasers, this should basically reduce the overall load of lasers on the server to near-zero.
+
 ## Credits
 - Chinese translation: @ZHAY10086

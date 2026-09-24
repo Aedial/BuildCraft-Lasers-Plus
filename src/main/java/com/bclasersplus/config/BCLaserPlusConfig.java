@@ -123,6 +123,11 @@ public final class BCLaserPlusConfig {
         @Config.Comment("Prevent output overflow from overfilled laser batteries. Requires restart.")
         public boolean fixLaserPowerOverflow = isBuildcraftVersionBelowOrEqual("8.0.0");
 
+        @Config.Name("assemblyTableRecipeCacheMixin")
+        @Config.LangKey(PREFIX + "mixins.assemblyTableRecipeCacheMixin")
+        @Config.Comment("Cache selected Assembly Table recipes. Requires restart.")
+        public boolean assemblyTableRecipeCacheMixin = isBuildcraftVersionBelowOrEqual("8.0.0");
+
     }
 
     public static class HiddenCategory {
