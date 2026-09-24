@@ -8,6 +8,12 @@ item.bclasersplus.laser_plus.2.name=Fasterest Laser
 tile.bclasersplus.laser_plus.3.name=Fasterester Laser
 item.bclasersplus.laser_plus.3.name=Fasterester Laser
 
+# Advanced tooltips (no way to disable them)
+tile.bclasersplus.laser_plus.0.tip=
+tile.bclasersplus.laser_plus.1.tip=
+tile.bclasersplus.laser_plus.2.tip=
+tile.bclasersplus.laser_plus.3.tip=
+
 # Configs
 bclasersplus.config.title=BuildCraft Lasers +
 
