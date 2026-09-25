@@ -40,6 +40,8 @@ bclasersplus.config.mixins.fixLaserNotWorkingMixin=修复镭射器无法工作
 bclasersplus.config.mixins.fixLaserNotWorkingMixin.tooltip=启用修复镭射器随机停止工作的问题。需要重启。
 bclasersplus.config.mixins.fixLaserPowerOverflow=修复镭射器能量溢出
 bclasersplus.config.mixins.fixLaserPowerOverflow.tooltip=防止镭射器电池过充导致的输出溢出。需要重启。
+bclasersplus.config.mixins.assemblyTableRecipeCacheMixin=装配台配方缓存
+bclasersplus.config.mixins.assemblyTableRecipeCacheMixin.tooltip=缓存选中的装配台配方。需要重启。
 
 # Tooltips
 tooltip.bclasersplus.laser_plus=§b更快的镭射器（%s倍速度）
