@@ -20,8 +20,8 @@ bclasersplus.config.title=BuildCraft Lasers +
 ## Configs: General
 bclasersplus.config.category.general=General
 bclasersplus.config.category.general.tooltip=General settings for laser behavior
-bclasersplus.config.general.laserfactors=Laser Factors
-bclasersplus.config.general.laserfactors.tooltip=Speed and battery-capacity factors for lasers.\nEach value corresponds to a different laser tier.\nRequires restart for changes to take effect.
+bclasersplus.config.general.laserFactors=Laser Factors
+bclasersplus.config.general.laserFactors.tooltip=Speed and battery-capacity factors for lasers.\nEach value corresponds to a different laser tier.\nRequires restart for changes to take effect.
 
 ## Configs: Mixins
 bclasersplus.config.category.mixins=Mixins

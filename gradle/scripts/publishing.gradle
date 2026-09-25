@@ -89,7 +89,9 @@ if (propertyBool('publish_to_curseforge')) {
             mainFile.addRelation('assetmover', 'requiredDependency')
         }
         if (propertyBool('use_mixins')) {
-            mainFile.addRelation('mixin-booter', 'optionalDependency')
+            // TODO: Make it optional when BuildCraft makes a release with #4765
+            // mainFile.addRelation('mixin-booter', 'optionalDependency')
+            mainFile.addRelation('mixin-booter', 'requiredDependency')
         }
 
         // Required: Buildcraft

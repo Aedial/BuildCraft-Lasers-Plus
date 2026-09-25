@@ -20,8 +20,8 @@ bclasersplus.config.title=BuildCraft镭射器+
 ## Configs: General
 bclasersplus.config.category.general=通用
 bclasersplus.config.category.general.tooltip=镭射器行为的通用设置
-bclasersplus.config.general.laserfactors=镭射器倍率
-bclasersplus.config.general.laserfactors.tooltip=镭射器速度和电池容量的倍率。\n每个值对应不同的镭射器等级。\n更改后需要重启才能生效。
+bclasersplus.config.general.laserFactors=镭射器倍率
+bclasersplus.config.general.laserFactors.tooltip=镭射器速度和电池容量的倍率。\n每个值对应不同的镭射器等级。\n更改后需要重启才能生效。
 
 ## Configs: Mixins
 bclasersplus.config.category.mixins=Mixins

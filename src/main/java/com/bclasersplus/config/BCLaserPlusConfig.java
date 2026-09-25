@@ -41,9 +41,9 @@ public final class BCLaserPlusConfig {
     @Config.Comment("Settings for mixins")
     public static MixinsCategory mixins = new MixinsCategory();
 
-    @Config.Name(CATEGORY_HIDDEN)
-    @Config.Comment("Hidden client preferences")
-    public static HiddenCategory hidden = new HiddenCategory();
+    // @Config.Name(CATEGORY_HIDDEN)
+    // @Config.Comment("Hidden client preferences")
+    // public static HiddenCategory hidden = new HiddenCategory();
 
     private BCLaserPlusConfig() {
     }

@@ -22,10 +22,11 @@ import com.bclasersplus.config.BCLaserPlusConfig;
 
 
 @Mod(
-    modid = Tags.MODID, 
-    name = Tags.MODNAME, 
-    version = Tags.VERSION, 
-    dependencies = "required-after:buildcraftsilicon@[8.0.0,);after:mixinbooter@[8.0,)"
+    modid = Tags.MODID,
+    name = Tags.MODNAME,
+    version = Tags.VERSION,
+    dependencies = "required-after:buildcraftsilicon@[8.0.0,);after:mixinbooter@[8.0,)",
+    guiFactory = "com.bclasersplus.config.BCLaserPlusGuiFactory"
 )
 public class BCLaserPlus {
 
